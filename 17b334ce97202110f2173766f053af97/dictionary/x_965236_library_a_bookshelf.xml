@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7e8674c697602110f2173766f053af21" label="Bookshelf" max_length="40" name="x_965236_library_a_bookshelf" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Author" mandatory="true" max_length="256" name="author" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="8000" name="description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ISBN" mandatory="true" max_length="40" name="isbn" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Name" mandatory="true" max_length="1024" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number 2" max_length="40" name="number_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Short Description" max_length="4096" name="short_description" type="string"/>
+    </element>
+</database>
