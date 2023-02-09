@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="number_2" label="Number 2" language="en" table="x_965236_library_a_bookshelf">
+    <sys_documentation element="book" label="Book" language="en" table="x_965236_library_a_possession">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>number_2</element>
+            <element>book</element>
             <help/>
             <hint/>
-            <label>Number 2</label>
+            <label>Book</label>
             <language>en</language>
-            <name>x_965236_library_a_bookshelf</name>
-            <plural>Number 2s</plural>
+            <name>x_965236_library_a_possession</name>
+            <plural>Books</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-01-23 17:42:56</sys_created_on>
-            <sys_name>Number 2</sys_name>
+            <sys_created_on>2023-01-26 18:16:28</sys_created_on>
+            <sys_name>Book</sys_name>
             <sys_package display_value="Library and Book Management" source="x_965236_library_a">17b334ce97202110f2173766f053af97</sys_package>
             <sys_policy/>
             <sys_scope display_value="Library and Book Management">17b334ce97202110f2173766f053af97</sys_scope>
-            <sys_update_name>sys_documentation_x_965236_library_a_bookshelf_number_2_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_965236_library_a_possession_book_en</sys_update_name>
             <url/>
             <url_target/>
         </sys_documentation>

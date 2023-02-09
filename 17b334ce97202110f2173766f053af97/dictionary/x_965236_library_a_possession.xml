@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f43a540397242110f2173766f053afdf" label="Possession" max_length="40" name="x_965236_library_a_possession" type="collection">
+        <element label="Book" max_length="32" name="book" reference="x_965236_library_a_bookshelf" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Return expected" max_length="40" name="return_expected" type="glide_date"/>
+        <element label="Subscriber" max_length="32" name="subscriber" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="Taken" max_length="40" name="taken" type="glide_date"/>
+        <index name="index">
+            <element name="book"/>
+        </index>
+        <index name="index2">
+            <element name="subscriber"/>
+        </index>
+    </element>
+</database>

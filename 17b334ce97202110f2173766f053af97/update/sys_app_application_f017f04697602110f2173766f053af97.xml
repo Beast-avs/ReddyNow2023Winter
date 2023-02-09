@@ -7,7 +7,7 @@
         <hint>Application to manage book inventory and loans</hint>
         <name/>
         <order/>
-        <roles>x_965236_library_a.library_mng_app_admin</roles>
+        <roles>x_965236_library_a.library_mng_app_admin,x_965236_library_a.library_mng_app_librarian,x_965236_library_a.library_mng_app_subscriber</roles>
         <sys_class_name>sys_app_application</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-01-23 17:45:15</sys_created_on>
